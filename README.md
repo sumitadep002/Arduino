@@ -31,6 +31,7 @@ The Basic OTA framework is a simple implementation for performing firmware updat
 Arduino IDE has the utility called network port.
 
 Instead of using physical port throuugh UART it uses Network port.
+![Network Port Image](OTA/Basic_OTA/Images/network_port.webp)
 
 Limitations: It is dependent on Arduino IDE and works only on local network.
 
@@ -39,6 +40,7 @@ To use the Basic OTA framework, follow the instructions in the [Basic OTA direct
 ### OTA Web Updater
 
 The OTA Web Updater framework enhances the OTA experience by providing a web interface for managing firmware updates. Users can upload firmware files through a web page hosted on the ESP8266, simplifying the update process.
+![Webpage Image](OTA/WebUpdater/images/webpage.jpeg)
 
 Advantage: You do not rely on IDE because web page.
 Limitation: It only works on local network.
