@@ -35,7 +35,7 @@ Instead of using physical port throuugh UART it uses Network port.
 
 Limitations: It is dependent on Arduino IDE and works only on local network.
 
-To use the Basic OTA framework, follow the instructions in the [Basic OTA directory](./Basic_OTA).
+To use the Basic OTA framework, follow the instructions in the [Basic OTA directory](.OTA/Basic_OTA).
 
 ### OTA Web Updater
 
@@ -45,13 +45,13 @@ The OTA Web Updater framework enhances the OTA experience by providing a web int
 Advantage: You do not rely on IDE because web page.
 Limitation: It only works on local network.
 
-To use the OTA Web Updater framework, follow the instructions in the [OTA_Web_Updater directory](./OTA_Web_Updater).
+To use the OTA Web Updater framework, follow the instructions in the [OTA_Web_Updater directory](.OTA/WebUpdater).
 
 ### Cloud-based OTA
 
 The Cloud-based OTA framework extends OTA capabilities by integrating with cloud platforms such as AWS, Microsoft Azure, or custom websites. This enables firmware updates triggered by cloud events or schedules.
 
-To use the Cloud-based OTA framework, follow the instructions in the [Cloud_Based_OTA directory](./Cloud_Based_OTA).
+To use the Cloud-based OTA framework, follow the instructions in the [Cloud_Based_OTA directory](.OTA/OTA_From_Cloud).
 
 **Note:** Ensure that you have the necessary credentials and configurations for your chosen cloud platform before using the Cloud-based OTA framework.
 
